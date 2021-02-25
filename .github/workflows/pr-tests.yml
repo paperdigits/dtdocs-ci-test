@@ -23,7 +23,7 @@ jobs:
       - name: npm Install
         run: cd themes/hugo-darktable-docs-theme/assets/ && yarn install
 
-      - name: Build the site
+      - name: Build the static site
         run:  hugo --baseURL http://localhost:8080
 
       - name: Build PDF
