@@ -12,24 +12,19 @@ jobs:
         with:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: cachix/install-nix-action@v12
         with:
-          hugo-version: '0.79.0'
-          extended: true
+          nix_path: nixpkgs=channel:nixos-unstable
+      - run: nix-build
+
+      - name: Install packages
+        run: nix-env -i hugo yarn python38Packages.weasyprint gitFull linkchecker perlPackages.Po4a python3
 
       - name: npm Install
-        run: cd themes/hugo-darktable-docs-theme/assets/ && npm install
-
-      - name: Update the system
-        run: sudo apt update
+        run: cd themes/hugo-darktable-docs-theme/assets/ && yarn install
 
       - name: Build the site
         run:  hugo --baseURL http://localhost:8080
-
-      - name: Install weasyprint
-        run: sudo apt install weasyprint
 
       - name: Build PDF
         run: hugo server --disableFastRender -verbose --config config-pdf.yaml & sleep 5 && weasyprint -v http://localhost:1313/dtdocs/index.html ./public/darktable_user_manual.pdf && pkill hugo
