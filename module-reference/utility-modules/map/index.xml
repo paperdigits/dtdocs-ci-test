@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>map on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/</link>
+    <description>Recent content in map on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>find location</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/find-location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/find-location/</guid>
+      <description>Search for a location on the map. You must be connected to the internet to use this feature.
+To use this module, type in a place name or address, press Enter and a list of results will be shown. Click on one of the resulting items and the map will zoom to that location. An outline covering that location or a pin pointing at the location will be displayed. Drag images from the filmstrip at the bottom of the screen to their location on the map.</description>
+    </item>
+    
+    <item>
+      <title>locations</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/locations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/locations/</guid>
+      <description>Create areas or locations and organize them as hierarchical tags. The pipe “|” character can be used to insert a new level (a group of locations).
+A location is shown as a shape on the map when selected. Initially each location will be represented as a square or circle and can be changed to a rectangle or ellipse by adjusting the shape&amp;rsquo;s width and/or height. Each location is stored as tag entry under the geotagging collection.</description>
+    </item>
+    
+    <item>
+      <title>map settings</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/map-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/map/map-settings/</guid>
+      <description>Select preferred map data from various providers. Some will provide additional layers (satellite view etc.) which you can toggle.
+🔗module controls  map source Choose the provider to source map information from. show OSD Choose whether to display the OSD controls on top-left of the center view. filtered images Select to display only the images from the filmstrip in the center view. De-select to display all images in the current library, where those images have GPS data associated with them.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>basic workflow on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/overview/workflow/</link>
+    <description>Recent content in basic workflow on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/overview/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>import, rate &amp; tag images</title>
+      <link>https://darktable-org.github.io/dtdocs/overview/workflow/import-rate-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/overview/workflow/import-rate-tag/</guid>
+      <description>When you want to edit some new images in darktable, the first step is to import them. This will create entries for the imported images in darktable&amp;rsquo;s library database so it can keep track of the changes you make to them. There are two main methods for importing images:
+ import images from the filesystem You can import a single image or a directory full of images (optionally recursing through subdirectories) from the filesystem.</description>
+    </item>
+    
+    <item>
+      <title>editing an image: workflow overview</title>
+      <link>https://darktable-org.github.io/dtdocs/overview/workflow/edit-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/overview/workflow/edit-overview/</guid>
+      <description>This section will guide you through the basics of developing an image in the darkroom view, where an arsenal of modules is at hand to help you reach your creative goals.
+To begin, open an image in the darkroom by double clicking an image thumbnail in the lighttable view.
+Each change you make to the image in the darkroom is turned into a history stack item. The history is stored in a database and in an XMP sidecar file for that image.</description>
+    </item>
+    
+    <item>
+      <title>editing an image: scene-referred workflow</title>
+      <link>https://darktable-org.github.io/dtdocs/overview/workflow/edit-scene-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/overview/workflow/edit-scene-referred/</guid>
+      <description>The scene-referred workflow places an emphasis on performing image processing in the linear scene-referred part of the pixelpipe. This helps to reduce artifacts and color shifts that can result from processing non-linear pixel values and, by decoupling the image processing from the characteristics of a specific display, it makes it easier to adapt your work in the future to new display media, such as high dynamic range displays.
+This being the recommended way to process images in versions 3.</description>
+    </item>
+    
+    <item>
+      <title>editing an image: display-referred workflow</title>
+      <link>https://darktable-org.github.io/dtdocs/overview/workflow/edit-display-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/overview/workflow/edit-display-referred/</guid>
+      <description>This is a legacy mode which is retained to provide backward-compatibility with edits in older darktable versions, and to allows users to continue with their former way of working without forcing them to use the newer scene-referred workflow.
+The display-referred workflow places more emphasis on performing image processing in the non-linear display-referred part of the pixelpipe. By default it uses the base curve module to tone map images from the linear scene-referred space into display-referred space, although other tone-mapping tools (such as the tone curve module) can also be used.</description>
+    </item>
+    
+    <item>
+      <title>exporting and uploading images with metadata</title>
+      <link>https://darktable-org.github.io/dtdocs/overview/workflow/export-metadata-upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/overview/workflow/export-metadata-upload/</guid>
+      <description>Changes to an image are not saved directly to the image file contrary to a regular image editor. Rather, darktable is a non-destructive editor, which means that all changes are recorded in darktable&amp;rsquo;s library database, and the original image is left untouched. Therefore, you need to export images in order to bake your processing options and metadata changes into an output file that can be distributed outside of darktable.
+Images are exported using the export module which is available in the lighttable and darkroom views.</description>
+    </item>
+    
+  </channel>
+</rss>

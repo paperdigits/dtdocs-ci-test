@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shared on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/</link>
+    <description>Recent content in shared on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>collect images</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/collect-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/collect-images/</guid>
+      <description>Filter the images shown in the lighttable view and filmstrip panel using image attributes. This set of filtered images is known as a collection.
+All images imported imported into darktable are stored in darktable&amp;rsquo;s library database, along with attributes describing each image. A collection may be defined by applying filtering rules to these attributes, thus creating a subset of images to display in the lighttable view and the filmstrip module.</description>
+    </item>
+    
+    <item>
+      <title>export</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/export/</guid>
+      <description>Export images that have been selected in the lighttable or the filmstrip of the darkroom view.
+Files can be exported to a file on disk, email, various on-line storage locations, a webalbum, or a book template.
+🔗module controls 🔗storage options  target storage The type of location to store your selected images. A number of different back-ends are implemented, including file on disk, a LaTeX book template and various web albums.</description>
+    </item>
+    
+    <item>
+      <title>filmstrip</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>The filmstrip can be used to quickly switch between images in any darktable view. The images shown are the same as displayed in the lighttable view and are defined by the currently-selected collection.
+  The filmstrip can be switched on and off using the shortcut Ctrl+F. The height of the filmstrip panel can be changed by clicking and dragging its top border.
+Quickly navigate through the images in the filmstrip by scrolling with the mouse.</description>
+    </item>
+    
+    <item>
+      <title>focus peaking</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>The focus peaking module allows you to identify which parts of the image are sharp and in-focus. It works both in the lighttable view, where you can easily see at a glance which images are sharp and which are blurry, and in the darkroom view, when you are processing a single image.
+The module is activated by clicking on the focus-peaking icon (  ). It highlights the sharp parts of the image with a yellow, green and blue overlay:</description>
+    </item>
+    
+    <item>
+      <title>geotagging</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Import and apply GPX track data to a selection of images.
+This module is common to the lighttable and map views. However, an enhanced mode is provided in the map view that allows you to preview the position of the images along the GPS tracks while adjusting the images&#39; date/time (offset) and time zone.
+🔗workflow overview A GPS receiver calculates its current position based on the information it receives from satellites and records it in a GPX file, together with the current date and time.</description>
+    </item>
+    
+    <item>
+      <title>histogram</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/histogram/</guid>
+      <description>A graphical depiction of the developed image&amp;rsquo;s light levels.
+  Move the mouse over the panel to show buttons to adjust the display. The leftmost button cycles the mode between a &amp;ldquo;regular&amp;rdquo; and a waveform-style histogram. The next button controls how the data for the current mode is displayed. The three rightmost colored squares are toggles which enable or disable the display of the red, green and blue color channels.</description>
+    </item>
+    
+    <item>
+      <title>image information</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/image-information/</guid>
+      <description>This module displays the information embedded within an image&amp;rsquo;s Exif data as well as a number of additional data fields defined by darktable.
+When hovering with the mouse over image thumbnails, the module&amp;rsquo;s data is automatically updated to show information about the image currently under the mouse cursor.
+🔗preferences The “preferences…” option in the presets menu brings up a dialog with a list of all of the fields that are available for display.</description>
+    </item>
+    
+    <item>
+      <title>metadata editor</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Edit the metadata (title, description, creator, publisher, rights etc.) of selected images.
+🔗module controls  metadata entry fields A separate field is displayed for each metadata item. Hold Ctrl while scrolling with your mouse to increase the height of a field. Press Ctrl+Enter to insert a new line. Press Enter to apply any text entered in the current metadata field to the selected images. Double-click on a field&amp;rsquo;s label to delete the contents of that field.</description>
+    </item>
+    
+    <item>
+      <title>recently used collections</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/recent-collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/recent-collections/</guid>
+      <description>Display a list of recently used collections from the collect images module.
+Click on an entry to reopen the selected collection. This also updates the collect images module with the appropriate filter criteria and rules.</description>
+    </item>
+    
+    <item>
+      <title>tagging</title>
+      <link>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/tagging/</guid>
+      <description>Manage tags attached to images.
+Tags provide a means of adding information to images using a keyword dictionary. You can also manage tags as a hierarchical tree, which can be useful when their number becomes large.
+Tags are physically stored in XMP sidecar files as well as in darktable&amp;rsquo;s library database and can be included in exported images.
+🔗definitions The following definitions assume that you have set up a single tag named &amp;ldquo;places|France|Nord|Lille&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

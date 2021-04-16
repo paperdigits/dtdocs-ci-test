@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tethering on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/tethering/</link>
+    <description>Recent content in Tethering on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/tethering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>overview</title>
+      <link>https://darktable-org.github.io/dtdocs/tethering/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/tethering/overview/</guid>
+      <description>The tethering view allows you to capture images directly into darktable from a connected camera.
+To use the tethering feature you need to connect your camera to your PC using a USB cable. Your computer might ask to mount or view the connected camera. Do not mount or view the camera. If your camera is mounted or viewed automatically, you will need to “unmount/eject” the camera before darktable can access it.</description>
+    </item>
+    
+    <item>
+      <title>tethering view layout</title>
+      <link>https://darktable-org.github.io/dtdocs/tethering/tethering-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/tethering/tethering-view-layout/</guid>
+      <description>🔗left panel  image information Display image information  🔗right panel From top to bottom:
+ histogram The histogram for the current image session Session settings live view Live view settings camera settings Camera settings metadata editor Edit metadata for selected images. tagging Tag selected images.  🔗bottom panel From left to right:
+ star ratings Apply star ratings to images color labels Apply color categories to images  </description>
+    </item>
+    
+    <item>
+      <title>examples</title>
+      <link>https://darktable-org.github.io/dtdocs/tethering/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/tethering/examples/</guid>
+      <description>This section contains examples of typical usages of tethering.
+🔗studio setup with screening This is a pretty common use case. You have your studio and subject set up, the camera is connected to your computer and tethering view is active in darktable. You work at the camera and take images. Whenever you like, you can screen the image directly on your computer monitor instead of using the camera LCD for validation.</description>
+    </item>
+    
+    <item>
+      <title>troubleshooting</title>
+      <link>https://darktable-org.github.io/dtdocs/tethering/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/tethering/troubleshooting/</guid>
+      <description>This troubleshooting guide will provide you with some steps to verify whether your camera can be used with tethering. This is done using the gphoto2 command-line tools. This is what darktable uses to interface with your camera.
+Find your camera port name to use it in the following tests. Usually the port &amp;ldquo;usb:&amp;rdquo; will be enough and therefore is used in these examples.
+🔗is your camera detected? The following command will verify that your camera is connected to the computer and detected by gphoto2.</description>
+    </item>
+    
+  </channel>
+</rss>
