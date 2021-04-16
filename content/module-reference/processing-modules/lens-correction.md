@@ -14,7 +14,7 @@ This module identifies the camera/lens combination from the image's Exif data an
 
 If your system's lensfun library has no correction profile for the automatically identified camera/lens combination the controls for the three photometric parameters (below) are replaced with a warning message. You may try to find the right profile yourself by searching for it in the menu. 
 
-If your lens is present in the list but has not been correctly identified, this may require some adjustment within the exiv2 program (see [this post](https://dev.exiv2.org/boards/3/topics/2854) for details). Note that you may need to re-import the images once such adjustments have been made.
+If your lens is present in the list but has not been correctly identified, this may require some adjustment within the exiv2 program . Note that you may need to re-import the images once such adjustments have been made.
 
 If you can't find your lens, check if it is in the list of [currently supported lenses](https://lensfun.github.io/lenslist/), and try running [the lensfun-update-data tool](https://lensfun.github.io/manual/v0.3.2/lensfun-update-data.html). If there is still no matching profile for your lens, please visit this [lens calibration service](https://www.darktable.org/2013/07/have-your-lens-calibrated/) offered by Torsten Bronger, one of darktable's users. Alternatively you may go to [lensfun's home page](https://lensfun.github.io/lenslist/) and learn how to generate your own set of correction parameters. Don't forget to share your profile with the lensfun team!
 
